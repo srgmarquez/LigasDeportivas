@@ -1,0 +1,153 @@
+#mensajeAviso {
+    float:left;
+    width:92%;
+    margin-left: 4%;
+    background-color: lightgreen;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    border-radius: 5px;
+    padding-left: 4%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-top: -2%;
+    margin-bottom: 2%;
+}
+
+#cabeceraPartidos{
+    float:left;
+    width:92%;
+    margin-left: 4%;
+    margin-bottom: 2%;
+    border-bottom: 2px solid black;
+}
+#tituloPartido {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width:30%;
+    float:left;
+    margin-bottom: -0.5%;
+}
+
+#nuevoPartido{
+    float:right;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    padding:1%;
+    border:1px solid lightgreen;
+    width:15%;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    background-color: lightgreen;
+    border-radius: 5px;
+    margin-top: 0.2%;
+}
+
+#seccionPartidos{
+    float:left;
+    margin-left: 4%;
+    width:92%;
+    margin-bottom: 2%;
+
+}
+
+#apartadoPartido{
+    float:left;
+    width:100%;
+    background-color: white;
+    margin-bottom: 1.5%;
+    border-radius: 5px;
+}
+
+#nombreDeporte{
+    float:left;
+    width:15%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    background-color: black;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    color:white;
+    padding-left: 2%;
+    height:105px;
+}
+
+#resultadoPartido{
+    float:left;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 120%;
+}
+
+.imagenEscudo{
+    float:left;
+}
+
+.paraPosicion{
+    display: flex;
+    width:70px;
+    height:105px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    overflow: hidden;
+}
+
+.imagenDentro{
+    width:75%;
+}
+
+.posicionarTexto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; /* El hijo ocupa todo el ancho del padre */
+    height: 105px; /* El hijo ocupa todo el alto del padre */
+}
+
+#primerEscudo{
+    margin-left: 5%;
+}
+
+#apartadoEstado{
+    float:left;
+    width:15%;
+    margin-left: 5%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+#apartadoAcciones{
+    float:right;
+    margin-right: 4%;
+    width:30%;
+}
+
+.botonEditar{
+    float:left;
+    border:1px solid yellow;
+    padding:2%;
+    margin-left: 2%;
+    margin-right: 5%;
+    margin-bottom: 4%;
+    text-align: center;
+    text-decoration: none;
+    color:black;
+    background-color: yellow;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+#botonEliminar{
+    float:left;
+    border:1px solid red;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: red;
+    padding:9%;
+    font-size: 100%;
+    color:white;
+    text-align: center;
+}
+

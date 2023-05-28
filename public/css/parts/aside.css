@@ -1,0 +1,72 @@
+
+/*******************************************************************/
+/*****************        ASIDE           **************************/
+/*******************************************************************/
+aside {
+    position:absolute;
+    left:0;
+    top:66px;
+    width:300px;
+    min-height: 100vh;
+    background-color: #e6f1ff;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#agruparAside {
+    width:80%;
+    margin-left: 10%;
+    margin-top: 5%;
+
+    float:left;
+}
+
+h2 {
+    background-color: black;
+    color:white;
+    font-size: 100%;
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 3%;  
+    float:left;
+    width:100%;
+}
+
+.cajaEnlace {
+    border-left: 1px solid grey;
+    border-bottom: 1px solid grey;
+    border-right: 1px solid grey;
+    background-color: white;
+    text-align: center;
+    width:100%;
+    float:left;
+}
+
+.enlacesAside{
+    text-decoration:none;
+    color:black;
+    font-weight: bold;
+}
+
+#numeroPeticiones{
+    float:left;
+    width:5%;
+    margin-top: 0.2%;
+    margin-bottom: -1%;
+    background-color: red;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color:White;
+    width:10%;
+    border-radius:50%;
+}
+
+#enlaceEspecial{
+    float:left;
+    margin-left: 18%;
+    margin-right: 5%;
+}
+
+#primerEnlace {
+    margin-top: -5.5%;
+}
+

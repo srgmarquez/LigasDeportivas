@@ -1,0 +1,58 @@
+table {
+    float:left;
+    border:3px solid black;
+    border-radius: 5px;
+    margin-left: 4%;
+    width:92%;
+    margin-bottom: 5%;
+}
+
+table *{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+}
+
+
+th {
+    background-color: black;
+    color:White;
+    width:25%;
+}
+
+tr:nth-child(even) {
+    background-color: #e6e6ff;
+}
+
+tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+td {
+    text-align: center;
+    font-weight: bold;
+}
+
+#aprobada{
+    color:green;
+}
+
+#denegada {
+    color:red;
+}
+
+#pendiente{
+    color:blue;
+}
+
+#enlaceSolicitud{
+    font-weight: bold;
+    color:white;
+    padding: 3%;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-left: 35%;
+    border:1px solid orange;
+    background-color: orange;
+    text-decoration: none;
+    float:left;
+}

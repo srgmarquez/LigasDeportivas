@@ -1,0 +1,130 @@
+#seccionEquipos{
+    float:left;
+    margin-left:4%;
+    width: 92%;
+    margin-bottom: 3%;
+}
+
+.apartadoFloat{
+    float:left;
+    width:12%;
+}
+
+.compartirEquipo{
+    width:92%;
+    margin-right: 5%;
+    float:left;
+    border-radius: 5px;
+    margin-left: 4%;
+    margin-bottom: 2%;
+}
+
+#apartadoEquipo{
+    background-color: lightblue;
+}
+
+#apartadoEquipoPrimero {
+    background-color: gold;
+}
+
+#apartadoEquipoSegundo {
+    background-color: silver;
+}
+
+#apartadoEquipoTercero {
+    background-color: #CD7F32;
+}
+
+#apartadoPosicion{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:115px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 200%;
+}
+
+#imagenDelEquipo {
+    width:100%;
+    height:115px;
+    border:2px solid black;
+    overflow: hidden;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+#imagenEquipo{
+    width:75%;
+}
+
+#nombreDelEquipo{
+    float:left;
+    width:20%;
+    color:White;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+#apartadoAcciones{
+    float:right;
+    margin-right: 5%;
+    width:30%;
+    margin-top: 4%;
+    color:white;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.apartadoBoton{
+    float:left;
+    width:30%;
+    margin-bottom: 4%;
+    text-align: center;
+    text-decoration: none;
+    color:black;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+#masInfo{
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: yellow;
+    border:1px solid yellow;
+}
+
+#solicitud{
+    width:55%;
+    background-color: lightgreen;
+    border:1px solid lightgreen;
+}
+
+#yaEquipo{
+    background-color: white;
+    border:1px solid white;
+    width:55%;
+}
+
+#mensajeAviso{
+    float:left;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    padding:1%;
+    border:1px solid lightgreen;
+    color:black;
+    width:94%;
+    margin-left: 4%;
+    text-decoration: none;
+    padding-left: 2%;
+
+    background-color: lightgreen;
+    border-radius: 5px;
+    margin-top: 0.2%;
+}

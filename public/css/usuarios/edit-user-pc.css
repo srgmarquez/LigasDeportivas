@@ -1,0 +1,101 @@
+#agruparFormularioTextos{
+    float:left;
+    width:60%;
+    margin-left: 4%;
+}
+
+.apartadoFormulario{
+    float:left;
+    width:95%;
+    margin-bottom: 2%;
+    margin-left: 5%;
+}
+
+.labelFormulario{
+    float:left;
+    width:30%;
+    background-color: white;
+    border: 1px solid grey;
+    color:black;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold; 
+    padding-bottom: 1.5%;
+    padding-top:1.5%;
+    padding-left: 5%;
+    border-top-left-radius:5px;
+    border-bottom-left-radius:5px;  
+}
+
+.escribirFormulario{
+    border-top-right-radius:5px;
+    border-bottom-right-radius:5px; 
+    float:left;
+    width:70%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    padding-top:1.9%;
+    padding-bottom: 1.9%;
+    border: 1px solid grey;
+}
+
+.textoInformativo{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 70%;
+}
+
+#textoUno{
+    margin-top: -1%;
+    margin-bottom: -2%;
+}
+
+#textoDos{
+    margin-bottom: -0.2%;
+}
+
+#agruparFormularioFoto{
+    float:left;
+    width:30%;
+}
+
+#recuadroImagen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    height:142px;
+    width:142px;
+    overflow: hidden;
+    margin-left: 25%;
+    border: 3px solid black;
+    margin-bottom: 2%;
+}
+
+#mensajeAviso{
+    float:left;
+    width:92%;
+    margin-left: 4%;
+    background-color: lightgreen;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    border-radius: 5px;
+    padding-left: 4%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-top: -2%;
+    margin-bottom: 2%;
+}
+
+#mensajesError{
+    float:left;
+    width:88%;
+    margin-left: 4%;
+    background-color: lightcoral;
+    color:black;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    border-radius: 5px;
+    padding-left: 4%;
+    margin-top: -2%;
+    margin-bottom: 2%;
+}

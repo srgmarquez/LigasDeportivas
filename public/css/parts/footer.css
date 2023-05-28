@@ -1,0 +1,71 @@
+footer {
+    width:100%;
+    background-color: black;
+    color:white;
+    text-decoration: none;
+    margin-top: -1.5%;
+    margin-top: auto;
+}
+
+.red {
+    float:left;
+    width:100%;
+}
+
+.fotored {
+    width:8%;
+    margin-top: 1%;
+    margin-left: 20%;
+    float:left;
+}
+
+.enlacered {
+    color:white;
+    text-decoration: none;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    float:left;
+    margin-top: 1.5%;
+    margin-left: 1%;
+}
+
+.enlacefacebookInsta {
+    color:white;
+    text-decoration: none;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    float:left;
+    margin-top: 3%;
+    margin-left: 1%;
+}
+
+#apartadoRedesSociales {
+    float:left;
+    width:33.3%;
+}
+
+#apartadoLogoFooter {
+    float:left;
+    width:33.3%;
+}
+
+#imgLogoFooter {
+    width: 45%;
+    margin-left: 27.5%;
+}
+
+#apartadoCopyright {
+    float:right;
+    width:33.3%;
+}
+
+.copy {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    width:100%;
+    float:left;
+    text-align: right;
+    padding-right: 20%;
+    margin-bottom: -2%;
+}
+

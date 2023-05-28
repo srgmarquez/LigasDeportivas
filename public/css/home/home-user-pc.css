@@ -1,0 +1,103 @@
+body{
+    margin:0;
+    padding:0;
+    display:flex;
+    flex-direction:column;
+    min-height:100vh;
+    background-color: #e6f1ff;
+}
+
+body *{
+    box-sizing:border-box;
+}
+
+#agruparCompleto{
+    clear:both;
+    width:100%;
+    margin-top: -20px;
+    width:100%;
+    float:right;
+    min-height: 100vh;
+}
+
+section {
+    float:right;
+    width:80%;
+    overflow: hidden;
+    margin-top: 85px;
+    min-height: 100vh;
+
+}
+
+
+
+section ul {
+    padding: 0;
+    display:flex;
+    max-height: 110vh;
+    width:500%;
+    margin:0;
+    animation: cambioImagenes 40s linear infinite;
+}
+
+section li {
+    display:flex;
+    list-style:none;
+    width:100%;
+}
+
+section ul img .ajusteImagen {
+    align-items: center;
+    overflow: hidden;
+    justify-content: center;
+}
+
+section ul img {
+    width:100%;
+    z-index:0;
+}
+
+@keyframes cambioImagenes {
+    0%{margin-left: 0;}
+    15%{margin-left: 0;}
+
+    20%{margin-left: -100%;}
+    35%{margin-left: -100%;}
+
+    40%{margin-left: -200%;}
+    55%{margin-left: -200%;}
+
+    60%{margin-left: -300%;}
+    75%{margin-left: -300%;}
+
+    80%{margin-left: -400%;}
+    100%{margin-left: -400%;}
+}
+
+
+#apartadoBienvenida {
+    position:absolute;
+    top:20%;
+    background-color: rgba(0,0,0,0.5);
+    width:40%;
+    right:20%;
+    border-radius: 5px;
+    z-index:200;
+    color:white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#tituloPrinci {
+    margin-left: 10%;
+    font-size: 300%;
+}
+
+#nombreUsuario {
+    margin-left: 10%;
+    font-size: 200%;
+    margin-top: -8%;
+    margin-bottom: 8%;
+}
+
+
+

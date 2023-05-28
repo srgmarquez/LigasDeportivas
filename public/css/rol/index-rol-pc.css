@@ -1,0 +1,66 @@
+table {
+    float:left;
+    border:3px solid black;
+    border-radius: 5px;
+    margin-left: 4%;
+    width:92%;
+    margin-bottom: 5%;
+}
+
+table *{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+}
+
+
+th {
+    background-color: black;
+    color:White;
+    width:25%;
+}
+
+tr:nth-child(even) {
+    background-color: #e6e6ff;
+}
+
+tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+td {
+    text-align: center;
+    font-weight: bold;
+}
+
+#botonesRoles {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botonRol{
+    font-weight: bold;
+    color:white;
+    padding: 12%;
+    padding-left: 30%;
+    padding-right: 30%;
+    margin-left: -20%;
+}
+
+#desactivar {
+    border:1px solid red;
+    background-color: red;
+}
+
+#activar {
+    border:1px solid lightgreen;
+    background-color: lightgreen;
+}
+
+#formularioRoles {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
